@@ -1,20 +1,14 @@
 
-
-
-
-
-1) https://github.com/MindorksOpenSource/
+1) https://github.com/MindorksOpenSource/android-interview-questions
 2) https://github.com/PacktPublishing/Hands-On-Data-Structures-and-Algorithms-with-Kotlin
 3) https://kotlinlang.org/docs/home.html
 4) https://developer.android.com/docs?authuser=1
 
-
-
-
 Kotlin -> https://chercher.tech/kotlin/
 https://www.geeksforgeeks.org/kotlin-programming-language/
-kotlin Programm -> https://www.programiz.com/kotlin-programming/examples
 Hilt -> https://www.youtube.com/watch?v=U8k0seMepdM&list=PL4EnMCc01RC3i81My4kM2Cf9MZOMwOueo
 SOLID Principle -> https://www.youtube.com/watch?v=yDR7QA1tRI0
 Couroutine
 MVVM , Android -> code tutor
+
+DS -> https://www.raywenderlich.com/books/data-structures-algorithms-in-kotlin/v1.0/chapters/1-kotlin-kotlin-standard-library

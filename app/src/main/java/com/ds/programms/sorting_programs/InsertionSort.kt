@@ -1,4 +1,4 @@
-package com.ds.programms.sorting_programms
+package com.ds.programms.sorting_programs
 
 /**
  * Created by 1000292 on 12-08-2022

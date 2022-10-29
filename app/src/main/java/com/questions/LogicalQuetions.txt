@@ -1,0 +1,2 @@
+// Cut cake into 8 piece in 3 cuts
+// Pick high weight apple out with Taraju

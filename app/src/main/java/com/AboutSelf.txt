@@ -1,0 +1,26 @@
+1) Greeting
+2) Thanks them
+3) Name
+4) Place
+5) Your Job
+6) Personality
+7) Qualification
+8) Skill and Exp
+9) Family
+10) Hobbies
+11) End your
+
+1) Hello Good afternoon/morning sir.
+2) Thanks for giving me the opportunity.
+3) My name is Neeraj Gupta.
+4) I am from Pune.
+5) I am goal-oriented person.
+6) I have a master's degree in computer application from Pune University.
+7) I have 4.5 yrs of exp in Native android development.
+8) Currently I am working as Sr. Android developer in BAJAJ MARKETS.
+9) My Hobbies are cooking and reading.
+10) That's all about me. Thanks you?
+
+
+
+
