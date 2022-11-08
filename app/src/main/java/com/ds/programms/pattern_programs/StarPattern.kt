@@ -7,7 +7,7 @@ package com.ds.programms.pattern_programs
  */
 
 fun main() {
-patternStar3()
+patternStar1()
 }
 
 /**

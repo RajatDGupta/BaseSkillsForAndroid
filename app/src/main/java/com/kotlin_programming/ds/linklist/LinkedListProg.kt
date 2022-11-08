@@ -30,6 +30,9 @@ fun main() {
         print("$it ")
     }
 
-
+    val iterator=ll.iterator()
+    while (iterator.hasNext()){
+        println(iterator.next())
+    }
 }
 

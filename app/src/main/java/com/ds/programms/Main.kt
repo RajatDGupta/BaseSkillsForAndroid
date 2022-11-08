@@ -3,7 +3,13 @@ fun main(args: Array<String>) {
 }
 
 
-data class Grocery(val grocery:List<String>)
+fun bubbleSort(intArray: IntArray){
+    for (i in intArray.indices){
+
+    }
+}
+
+
 
 
 

@@ -1,4 +1,4 @@
-package com.kotlin_programming.ds.queus
+package com.kotlin_programming.ds.queue
 
 import java.util.*
 import java.util.concurrent.PriorityBlockingQueue
