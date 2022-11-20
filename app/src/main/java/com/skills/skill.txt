@@ -3,6 +3,7 @@
 2) https://github.com/PacktPublishing/Hands-On-Data-Structures-and-Algorithms-with-Kotlin
 3) https://kotlinlang.org/docs/home.html
 4) https://developer.android.com/docs?authuser=1
+5) https://www.programiz.com/kotlin-programming/examples
 
 Kotlin -> https://chercher.tech/kotlin/
 https://www.geeksforgeeks.org/kotlin-programming-language/

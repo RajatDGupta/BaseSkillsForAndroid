@@ -7,7 +7,7 @@ package com.ds.programms.sorting_programs
  * ref= https://medium.com/@vamsitallapudi/selection-sort-kotlin-with-example-sorting-algorithms-1-e01008ccc979
  */
 
-
+//https://www.youtube.com/watch?v=GRNOoZeV6xc&list=PLlhM4lkb2sEgQ2nI2bsrKx5qIOAb7S7sc&index=2
 
 fun selectionSort(arr: IntArray):IntArray{
     var min:Int
@@ -18,9 +18,9 @@ fun selectionSort(arr: IntArray):IntArray{
                 min = j
             }
         }
-        val temp = arr[min]
-        arr[min] = arr[i]
-        arr[i] = temp
+        val temp = arr[i]
+        arr[i] = arr[min]
+        arr[min]=temp
     }
     return arr
 }
