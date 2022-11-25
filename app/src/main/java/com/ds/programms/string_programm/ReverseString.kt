@@ -6,7 +6,7 @@ package com.ds.programms.string_programm
  * PUNE.
  */
 fun main() {
-    println(reverseString("Hello"))
+    println(reverseStringRecursion("Hello"))
 }
 
 //How do you reverse a given string in place?
@@ -16,4 +16,10 @@ fun reverseString(inputString:String):String{
         reverseString=reverseString.plus(inputString[i])
     }
    return reverseString
+}
+
+// recursion
+fun reverseStringRecursion(inputString:String):String{
+    if(inputString.isEmpty() && inputString.length<=1) return inputString
+    return reverseStringRecursion(inputString.substring(1))+inputString[0]
 }

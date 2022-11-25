@@ -6,7 +6,10 @@ package com.ds.programms.string_programm
  * PUNE.
  */
 fun main() {
-    findDuplicateChar("Hello")
+   // findDuplicateChar("Hello")
+
+println(converterCamelCase("aadasdFhgHkj")
+)
 }
 
 //How do you print duplicate characters from a string?
@@ -24,4 +27,19 @@ fun findDuplicateChar(str: String) {
             println(key)
         }
     }
+}
+
+fun converterCamelCase(original: String): Int {
+    val lista = mutableListOf<String>()
+    val sb = StringBuilder()
+    for (i in original.indices) {
+        if (!Character.isUpperCase(original[i])) { //If it has a lowercase letter
+            sb.append(original[i])
+        } else {
+            val c = original[i].lowercaseChar()
+            break
+        }
+    }
+    lista.add(sb.toString())
+    return lista.size
 }
