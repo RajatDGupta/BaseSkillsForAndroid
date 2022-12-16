@@ -4,6 +4,7 @@
 3) https://kotlinlang.org/docs/home.html
 4) https://developer.android.com/docs?authuser=1
 5) https://www.programiz.com/kotlin-programming/examples
+6) https://sd.blackball.lv/library/data_structures_and_algorithms_in_kotlin_(2019).pdf
 
 Kotlin -> https://chercher.tech/kotlin/
 https://www.geeksforgeeks.org/kotlin-programming-language/

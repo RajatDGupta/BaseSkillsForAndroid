@@ -7,7 +7,7 @@ package com.ds.programms.pattern_programs
  */
 
 fun main() {
-patternStar1()
+patternStar4()
 }
 
 /**
@@ -72,3 +72,26 @@ fun patternStar3(){
         }
     }
 }
+
+/**
+     *
+   * *
+ * * *
+
+ */
+fun patternStar4(){
+    val rows = 5
+    var count =0
+    for (i in 1..rows){
+        for (j in 1..rows-i){
+            print("  ")
+        }
+        count++
+        for (k in 1..count){
+            print(" #")
+        }
+        println()
+    }
+}
+
+

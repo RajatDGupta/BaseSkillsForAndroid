@@ -8,7 +8,6 @@ package com.solidprinciple
 
 /**
    Single Responsibility principle
-
    The Single responsibility Principle states that every
    class should have one and only one responsibility. In other words,
    If there is a need to change the class for more than one reason then
