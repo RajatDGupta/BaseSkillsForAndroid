@@ -1,15 +1,20 @@
 fun main(arr: Array<String>) {
-   
-}
-
-class Student (var name: String) {
-    init {
-        println("Student has got a name as $name")
-    }
-    constructor(sectionName: String,id: Int) :this(sectionName) {
-
-    }
+ println(solution(intArrayOf(1, 4, 2, -1, 6, 5)))
 }
 
 
+fun solution(A: IntArray): Int {
+    val distinct = mutableSetOf<Int>()
+    for (i in A.indices){
+        if(A[i]>0)
+        distinct.add(A[i])
+    }
+    var index = 1
+    while (true) {
+        if (!distinct.contains(index)) {
+            return index
+        }
+        index++
+    }
+}
 

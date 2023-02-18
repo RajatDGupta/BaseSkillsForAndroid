@@ -9,7 +9,6 @@ package com.ds.programms.sorting_programs
 // https://www.youtube.com/watch?v=v6hmmfIiKu4&list=PLlhM4lkb2sEgQ2nI2bsrKx5qIOAb7S7sc&index=1
 
 fun bubbleSort(arr: IntArray): IntArray {
-
     for (i in arr.indices) {
         var flag=0
         for (j in 0 until arr.size - 1 - i) {

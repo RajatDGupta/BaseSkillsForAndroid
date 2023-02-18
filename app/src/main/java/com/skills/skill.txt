@@ -14,3 +14,4 @@ Couroutine
 MVVM , Android -> code tutor
 
 DS -> https://www.raywenderlich.com/books/data-structures-algorithms-in-kotlin/v1.0/chapters/1-kotlin-kotlin-standard-library
+Complex -> https://medium.com/javarevisited/time-and-space-complexity-of-an-algorithm-simplified-with-examples-9e0809c4b3be

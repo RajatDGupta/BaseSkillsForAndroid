@@ -8,18 +8,18 @@ package com.ds.programms.string_programm
 fun main() {
    // findDuplicateChar("Hello")
 
-println(converterCamelCase("aadasdFhgHkj")
+println(findDuplicateChar("aadasdFhgHkj")
 )
 }
 
 //How do you print duplicate characters from a string?
 fun findDuplicateChar(str: String) {
-    val map = mutableMapOf<String, Int>()
+    val map = mutableMapOf<Char, Int>()
     for (i in str.indices) {
-        if (map.containsKey(str[i].toString())) {
-            map[str[i].toString()] = map[str[i].toString()]!! + 1
+        if (map.containsKey(str[i])) {
+            map[str[i]] = map[str[i]]!! + 1
         } else {
-            map[str[i].toString()] = 1
+            map[str[i]] = 1
         }
     }
     for (key in map.keys) {
