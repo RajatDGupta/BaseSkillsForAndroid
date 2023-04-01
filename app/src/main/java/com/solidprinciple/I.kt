@@ -1,5 +1,9 @@
 package com.solidprinciple
 
+import android.view.MotionEvent
+import android.view.View
+
+
 /**
  * Created by 1000292 on 24-08-2022
  * BFDL
@@ -10,35 +14,15 @@ package com.solidprinciple
  * Interface Segregation Principle
  */
 
-interface Animal{
-    fun eat()
-    fun sleep()
+// Fix of Interface Segregation principle
+open interface OnClickListener {
+    fun onClick(v: View?)
 }
 
-interface FlyingAnimal{
-    fun fly()
+interface OnLongClickListener {
+    fun onLongClick(v: View?)
 }
 
-class Cat: Animal{
-    override fun eat() {
-        println("Cat is eating fish")
-    }
-
-    override fun sleep() {
-        println("Cat is sleeping on its owner's bed")
-    }
-}
-
-class Bird: Animal, FlyingAnimal{
-    override fun eat() {
-        println("Bird is eating forage")
-    }
-
-    override fun sleep() {
-        println("Bird is sleeping in the nest")
-    }
-
-    override fun fly() {
-        println("Bird is flying so high")
-    }
+interface OnTouchListener {
+    fun onTouch(v: View?, event: MotionEvent?)
 }

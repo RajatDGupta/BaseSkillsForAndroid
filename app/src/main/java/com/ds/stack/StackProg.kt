@@ -1,4 +1,4 @@
-package com.kotlin_programming.ds.stack
+package com.ds.stack
 
 import java.util.*
 

@@ -1,5 +1,8 @@
 package com.solidprinciple
 
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+
 /**
  * Created by 1000292 on 23-08-2022
  * BFDL
@@ -13,33 +16,36 @@ package com.solidprinciple
  */
 
 
-open class Vehicle{
-   open fun getInteriorWidth():Int {
-      return 0
+class MainActivityA : AppCompatActivity() {
+
+   override fun onCreate(savedInstanceState: Bundle?) {
+      super.onCreate(savedInstanceState)
+     //   setContentView(R.layout.activity_main)
+
+      // Here it is presented a way how to organize these Rectangle and Square classes better to
+      // meet the Liskov Substitution Principle. No more unexpected result.
+      val rectangleFirst: Shape = Rectangle(2,3)
+      val rectangleSecond: Shape = Square(3)
+
+     rectangleFirst.area().toString()
+      rectangleSecond.area().toString()
    }
 }
 
-class SwiftCar : Vehicle() {
-   private val swiftInteriorWidth=20
-   override fun getInteriorWidth(): Int {
-      return swiftInteriorWidth
-   }
+class Rectangle(var width: Int, var height: Int) : Shape() {
 
-}
-
-class HyundaiCar : Vehicle() {
-   private val hyundaiInteriorWidth=17
-   override fun getInteriorWidth(): Int {
-      return hyundaiInteriorWidth
+   override fun area(): Int {
+      return width * height
    }
 }
 
+class Square(var edge: Int) : Shape() {
 
-
-fun main() {
-   val list = mutableListOf(SwiftCar(),HyundaiCar())
-
-   list.forEach {
-      println(it.getInteriorWidth())
+   override fun area(): Int {
+      return edge * edge
    }
+}
+
+abstract class Shape {
+   abstract fun area(): Int
 }

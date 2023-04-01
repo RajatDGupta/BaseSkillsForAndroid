@@ -1,4 +1,4 @@
-package com.kotlin_programming.ds.linklist
+package com.ds.linklist
 
 import java.util.*
 

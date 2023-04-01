@@ -1,9 +1,0 @@
-1) https://blog.mindorks.com/kotlin-android-interview-questions
-2) https://www.geeksforgeeks.org/kotlin-programming-language/
-
-
-kotlin Program ->
-1) https://www.programiz.com/kotlin-programming/examples
-2)
-
-

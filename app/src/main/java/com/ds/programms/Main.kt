@@ -1,20 +1,22 @@
-fun main(arr: Array<String>) {
- println(solution(intArrayOf(1, 4, 2, -1, 6, 5)))
-}
 
+class Solution {
 
-fun solution(A: IntArray): Int {
-    val distinct = mutableSetOf<Int>()
-    for (i in A.indices){
-        if(A[i]>0)
-        distinct.add(A[i])
-    }
-    var index = 1
-    while (true) {
-        if (!distinct.contains(index)) {
-            return index
+    fun removeElement(nums: IntArray, num: Int): Int {
+        var count=0
+        for(item in nums){
+            if(item!=num){
+                count++
+            }
         }
-        index++
+        return count
     }
 }
+
+fun main(){
+   val c= Solution().removeElement(intArrayOf(0,1,2,2,3,0,4,2),2)
+    print(c)
+}
+
+
+
 

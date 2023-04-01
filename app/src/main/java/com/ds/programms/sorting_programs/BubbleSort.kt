@@ -12,12 +12,12 @@ fun bubbleSort(arr: IntArray): IntArray {
     for (i in arr.indices) {
         var flag=0
         for (j in 0 until arr.size - 1 - i) {
-            if (arr[j] > arr[j + 1]) {
-                val temp = arr[j]
-                arr[j] = arr[j + 1]
-                arr[j + 1] = temp
-                flag=1
-            }
+                if (arr[j] > arr[j + 1]) {
+                    val temp = arr[j]
+                    arr[j] = arr[j + 1]
+                    arr[j + 1] = temp
+                    flag=1
+                }
         }
         if (flag==0) {
             break

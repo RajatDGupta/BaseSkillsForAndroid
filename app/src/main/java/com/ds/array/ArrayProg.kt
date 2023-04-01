@@ -1,4 +1,4 @@
-package com.kotlin_programming.ds.array
+package com.ds.array
 
 /**
  * Created by 1000292 on 02-11-2022
