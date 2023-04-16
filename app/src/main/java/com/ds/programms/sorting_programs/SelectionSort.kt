@@ -13,7 +13,10 @@ fun selectionSort(arr: IntArray):IntArray{
     var min:Int
     for (i in arr.indices) {
         min = i
-        for (j in (i + 1) until arr.size) {
+        for (j in (i + 1) until arr.size)
+
+
+        {
             if (arr[j] < arr[min]) {
                 min = j
             }
