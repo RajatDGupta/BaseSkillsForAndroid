@@ -1,0 +1,30 @@
+package com.ds.programms.searching
+
+import java.util.*
+
+
+fun main(args: Array<String>){
+    print(binarySearch(23, arrayOf(12, 3, 24, 5, 10, 23, 9)))
+
+}
+
+fun binarySearch(element: Int, array: Array<Int>): Int {
+    Arrays.sort(array)
+
+    var index: Int = 0
+    var end = array.size - 1
+
+    while(index <= end){
+
+        val center: Int = (index + end) / 2
+
+        if (element == array[center]){
+            return center
+        }else if (element < array[center]){
+            end = center - 1
+        }else if(element > array[center]){
+            index = center + 1
+        }
+    }
+    return -1
+}

@@ -40,7 +40,6 @@ class Rectangle(var width: Int, var height: Int) : Shape() {
 }
 
 class Square(var edge: Int) : Shape() {
-
    override fun area(): Int {
       return edge * edge
    }

@@ -6,6 +6,10 @@ package com.solidprinciple
  * PUNE.
  */
 
+/**
+ * High-level modules should not depend on low-level modules. Both should depend on the abstraction.
+ */
+
 interface Charecter{
     fun getChar():Char
 }
