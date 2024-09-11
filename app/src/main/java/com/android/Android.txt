@@ -6,7 +6,7 @@ Diff
 methods
 USe
 
-// viewModel internal work -  https://blog.mindorks.com/android-viewmodels-under-the-hood/
+//viewModel internal work -  https://blog.mindorks.com/android-viewmodels-under-the-hood/
 
 //clean architecture - https://www.google.com/search?q=clean+architecture+example+android&sxsrf=AJOqlzUj6DbqXaaoIr4wwwu-j8lhwONRYw%3A1678458615628&ei=9z4LZJLzJdG_z7sPvcKrwAY&ved=0ahUKEwjSyrfMydH9AhXR33MBHT3hCmgQ4dUDCA8&uact=5&oq=clean+architecture+example+and&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoECCMQJzoECAAQQ0oECEEYAFAAWIYIYOwNaABwAXgAgAHKBYgB2hGSAQkzLTIuMi4wLjGYAQCgAQHAAQE&sclient=gws-wiz-serp
 

@@ -10,28 +10,25 @@ package com.solidprinciple
  * High-level modules should not depend on low-level modules. Both should depend on the abstraction.
  */
 
-interface Charecter{
-    fun getChar():Char
+interface Database {
+    fun getData(): String
 }
 
-class ClassA:Charecter{
-    override fun getChar():Char{
-        return 'A'
+class SQLiteDatabase: Database {
+    override fun getData(): String {
+        // Code to retrieve data from SQLite database
+        return "SQLiteDatabase data fetch"
     }
 }
 
-class ClassB:Charecter{
-   override fun getChar():Char{
-        return 'B'
+class DataManager(private val database: Database) {
+    fun processData() {
+        val data = database.getData()
+        // Code to process data
+        println(data)
     }
 }
 
-fun main() {
-    mutableListOf(ClassA(),ClassB()).let {
-        it.forEach {
-            println(
-                it.getChar()
-            )
-        }
-    }
+fun main(){
+    DataManager(SQLiteDatabase()).processData()
 }

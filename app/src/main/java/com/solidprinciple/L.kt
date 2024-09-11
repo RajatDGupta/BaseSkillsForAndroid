@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity
 /**
    The Liskov Substitution Principle (LSP)
    Child classes should never break the parent class’ type definitions.
+   Derived classes should be substitutable for their base classes
  */
 
 

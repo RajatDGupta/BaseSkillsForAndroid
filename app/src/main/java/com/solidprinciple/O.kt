@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
 
-        feedbackManager = FeedbackManager(findViewById(android.R.id.content));
+        feedbackManager = FeedbackManager(findViewById(android.R.id.content))
     }
 
     override fun onStart() {

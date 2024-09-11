@@ -1,9 +1,12 @@
 package com.ds.programms.string_programm
 
+import android.annotation.SuppressLint
+
 fun main(){
   println(removeDuplicateChar("Programming"))
 }
 
+@SuppressLint("SuspiciousIndentation")
 fun removeDuplicateChar(str:String):String{
 val sb=StringBuilder()
     for(i in str.indices){

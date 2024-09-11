@@ -7,6 +7,8 @@ import java.util.*
  * BFDL
  * PUNE.
  */
+
+// Application of
 object StackProg {
     // Pushing element on the top of the stack
     fun stackPush(stack: Stack<Int>) {

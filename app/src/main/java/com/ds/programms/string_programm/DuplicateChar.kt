@@ -27,6 +27,9 @@ fun findDuplicateChar(str: String) {
             println(key)
         }
     }
+
+    /*val map = "Hello World".groupingBy { it }.eachCount()
+    print(map)*/
 }
 
 fun converterCamelCase(original: String): Int {

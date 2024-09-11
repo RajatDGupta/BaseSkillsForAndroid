@@ -1,6 +1,5 @@
 package com.solidprinciple
 
-import androidx.recyclerview.widget.RecyclerView
 
 /**
  * Created by 1000292 on 23-08-2022

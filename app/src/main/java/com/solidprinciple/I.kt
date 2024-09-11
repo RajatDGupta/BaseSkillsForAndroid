@@ -12,6 +12,7 @@ import android.view.View
 
 /***
  * Interface Segregation Principle
+ * Clients should not be forced to depend on methods they do not use
  */
 
 // Fix of Interface Segregation principle

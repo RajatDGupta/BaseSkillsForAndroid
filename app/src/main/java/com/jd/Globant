@@ -1,0 +1,62 @@
+Programming languages
+∙ Java
+∙ Kotlin
+
+Persistence ∙
+. Shared preferences
+∙ Realm database
+
+Android async process
+∙ Workmanager
+∙ Android services
+
+Multithreading
+∙ RxJava
+∙ Coroutines (will be implemented in app evolution)
+
+Networking ∙ Retrofit
+
+Android UI
+∙ Custom views
+∙ Recycler view
+∙ Coordinator layout
+∙ Constraint layout
+∙ Android styles
+∙ Android dimens
+∙ Android fragments
+∙ Activity lifecycle
+∙ Camera management
+∙ Compose (will be implemented on homeScreen)
+
+Presentation architecture
+∙ MVP
+∙ MVVM (Will be implemented for app evolution)
+
+Design patterns
+∙ Decorator
+∙ Builder
+∙ Factory
+∙ SOLID principles
+∙ Repository pattern
+
+Others
+∙ Wizemap
+∙ Gson
+∙ Gradle tasks and build variants
+∙ Picasso / Glide / Coil
+∙ Firebase
+
+∙ Applanga
+∙ Lint
+∙ Sonarqube
+∙ Android UT
+∙ Generics (java / kotlin)
+
+Repository
+∙ Git
+∙ Git flow
+∙ Trunk base
+
+CI / CD
+∙ Bitrise
+∙ Fastlane

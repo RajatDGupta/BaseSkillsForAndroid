@@ -1,0 +1,4 @@
+// what is spy
+// what is stubb
+
+// how to test private , static and void method

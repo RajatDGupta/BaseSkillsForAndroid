@@ -12,15 +12,15 @@ println(fibonacci(7))
 
 
 // Display Fibonacci series using for loop
-fun fibonacci(number:Int):Int{
+fun fibonacci(number:Int){
     var t1 = 0
     var t2 = 1
     for (index in 1..number) {
         val sum = t1 + t2
         t1 = t2
         t2 = sum
+        print(t2)
     }
-   return t1
 }
 
 

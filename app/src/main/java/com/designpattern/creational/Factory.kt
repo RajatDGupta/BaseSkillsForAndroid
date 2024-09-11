@@ -1,23 +1,17 @@
 package com.designpattern.creational
 
 interface ICurrency {
-    fun symbol(): String
+
     fun code(): String
 }
 
 class Euro : ICurrency {
-    override fun symbol(): String {
-        return "€"
-    }
     override fun code(): String {
         return "EUR"
     }
 }
 
 class UnitedStatesDollar : ICurrency {
-    override fun symbol(): String {
-        return "$"
-    }
     override fun code(): String {
         return "USD"
     }
