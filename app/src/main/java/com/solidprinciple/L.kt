@@ -26,10 +26,10 @@ class MainActivityA : AppCompatActivity() {
       // Here it is presented a way how to organize these Rectangle and Square classes better to
       // meet the Liskov Substitution Principle. No more unexpected result.
       val rectangleFirst: Shape = Rectangle(2,3)
-      val rectangleSecond: Shape = Square(3)
+      val square: Shape = Square(3)
 
      rectangleFirst.area().toString()
-      rectangleSecond.area().toString()
+      square.area().toString()
    }
 }
 

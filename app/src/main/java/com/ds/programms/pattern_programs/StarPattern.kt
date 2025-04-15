@@ -95,3 +95,22 @@ fun patternStar4(){
 }
 
 
+/**
+ *      *
+ *     * *
+ *    * * *
+ *   * * * *
+ *  * * * * *
+ */
+fun pyramid(){
+    val rows = 5
+    for (i in 1..rows){
+        for(k in rows downTo i){
+            print(" ")
+        }
+        for (j in 1..i){
+            print("* ")
+        }
+        println()
+    }
+}

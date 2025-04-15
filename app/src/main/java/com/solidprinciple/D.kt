@@ -21,14 +21,22 @@ class SQLiteDatabase: Database {
     }
 }
 
+class DaoDatabase: Database {
+    override fun getData(): String {
+        // Code to retrieve data from Dao database
+        return "DaoDatabase data fetch"
+    }
+}
+
 class DataManager(private val database: Database) {
     fun processData() {
         val data = database.getData()
-        // Code to process data
+            // Code to process data
         println(data)
     }
 }
 
 fun main(){
     DataManager(SQLiteDatabase()).processData()
+    DataManager(DaoDatabase()).processData()
 }

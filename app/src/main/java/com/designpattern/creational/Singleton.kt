@@ -29,3 +29,40 @@ class Singleton private constructor() {
         val INSTANCE: Singleton by lazy(LazyThreadSafetyMode.SYNCHRONIZED) { Singleton() }
     }
 }*/
+
+
+/*fun main() {
+    println(Database())
+    println(Database())
+}
+
+class Database private constructor(){
+    companion object{
+        private var instance : Database ? = null
+
+        operator fun invoke ()  = synchronized(this){
+            if(instance==null)
+                instance = Database()
+            instance
+        }
+    }
+}*/
+
+
+/*class UsersDatabase : RoomDatabase() {
+
+    companion object {
+
+        @Volatile private var INSTANCE: UsersDatabase? = null
+
+        fun getInstance(context: Context): UsersDatabase =
+            INSTANCE ?: synchronized(this) {
+                INSTANCE ?: buildDatabase(context).also { INSTANCE = it }
+            }
+
+        private fun buildDatabase(context: Context) =
+            Room.databaseBuilder(context.applicationContext,
+                UsersDatabase::class.java, "Sample.db")
+                .build()
+    }
+}*/

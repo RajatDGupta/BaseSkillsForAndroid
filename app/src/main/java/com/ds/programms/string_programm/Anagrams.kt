@@ -18,5 +18,5 @@ fun isAnagram(x:String,y:String):Boolean{
 }
 
 fun main() {
-  println(isAnagram("AAA","AAB"))
+  println(isAnagram("AAA","AAA"))
 }
