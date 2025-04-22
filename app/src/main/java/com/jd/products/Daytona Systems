@@ -1,0 +1,43 @@
+Job description:
+
+Position – Android Developer
+
+Job Location - HSR Layout, Bangalore
+
+Mode Of Work- Hybrid
+
+Key Responsibilities:
+
+
+- Design, develop, and maintain high-quality Android applications.
+- Collaborate with cross-functional teams to define, design, and ship new features.
+- Write clean, maintainable, and scalable code following best practices.
+- Participate in code reviews, debugging, and unit testing.
+- Ensure the best possible performance, quality, and responsiveness of the application.
+- Stay updated with the latest Android development trends, libraries, and technologies.
+- Work on bug fixing and improving application performance.
+- Continuously discover, evaluate, and implement new technologies to maximize development efficiency.
+
+Must-Have Skills:
+
+- Strong proficiency in Kotlin: Experience with Kotlin for Android development, including coroutines and flows for asynchronous programming.
+- Android Architecture Components: Familiarity with MVVM, LiveData, ViewModel, and Room.
+- Jetpack Compose: Experience in building UI with Jetpack Compose.
+- Dependency Injection: Experience with Dagger/Hilt or similar frameworks.
+- Networking: Strong understanding of RESTful APIs, Retrofit, and handling of network requests.
+- Data Persistence: Experience with Room or other ORM frameworks for local database management.
+- Version Control: Proficiency with Git and version control systems.
+- Unit Testing & Test-Driven Development (TDD): Experience with JUnit, Mockito, and Espresso.
+- CI/CD: Familiarity with continuous integration and delivery pipelines.
+- Experience with secure coding practices: Understanding of data encryption, secure storage, and best practices for fintech applications.
+
+Good-to-Have Skills:
+
+- Experience with Firebase: Understanding of Firebase Authentication, Firestore, Remote Config, and Cloud Messaging.
+- Custom Views: Ability to create custom views and work with advanced UI components.
+- Experience with Jetpack Navigation: Familiarity with Navigation Component for managing app navigation.
+- State Management: Knowledge of state management techniques in Android applications.
+- Performance Optimization: Skills in optimizing app performance, including memory management and battery consumption.
+- Experience with Multi-Module Applications: Ability to work with and maintain multi-module Android projects.
+- Familiarity with Android's Accessibility APIs: Ensuring that the app is accessible to all users.
+- Knowledge of fintech-specific regulatory requirements: Understanding of compliance, security, and privacy standards in the fintech domain.

@@ -2,11 +2,7 @@ package com.ds.stack
 
 import java.util.*
 
-/**
- * Created by 1000292 on 29-10-2022
- * BFDL
- * PUNE.
- */
+
 
 // Application of
 object StackProg {

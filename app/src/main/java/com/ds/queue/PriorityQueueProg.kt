@@ -2,11 +2,7 @@ package com.ds.queue
 
 import java.util.*
 
-/**
- * Created by 1000292 on 29-10-2022
- * BFDL
- * PUNE.
- */
+
 
 fun main() {
     // Creating empty priority queue

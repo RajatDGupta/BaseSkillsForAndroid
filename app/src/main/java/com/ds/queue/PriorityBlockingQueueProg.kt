@@ -3,11 +3,7 @@ package com.ds.queue
 import java.util.*
 import java.util.concurrent.PriorityBlockingQueue
 
-/**
- * Created by 1000292 on 29-10-2022
- * BFDL
- * PUNE.
- */
+
 
 
 fun main() {
