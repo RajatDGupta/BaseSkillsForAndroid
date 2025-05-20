@@ -1,0 +1,36 @@
+Responsibilities
+● Design and build advanced applications for the Android platform using Kotlin and
+Jetpack Compose.
+● Collaborate with cross-functional teams to define, design, and ship new features.
+● Work with outside data sources and APIs (RESTful, GraphQL, Firebase, etc.).
+● Unit-test code for robustness, including edge cases, usability, and general reliability.
+● Work on bug fixing and improving application performance.
+● Continuously discover, evaluate, and implement new technologies to maximize
+development efficiency.
+● Mentor junior developers and contribute to code reviews and technical documentation.
+● Adhere to clean code and scalable architecture principles such as MVVM / MVI,
+modularization, and clean architecture.
+● Participate in the release process including Play Store deployment.
+
+Requirements
+● Bachelor’s/Master’s degree in Computer Science, Engineering, or a related field.
+● 5-8 years of hands-on experience in Android app development.
+● Proficient in Kotlin and experienced with Jetpack libraries (ViewModel, LiveData,
+Navigation, Room, WorkManager).
+
+● Strong understanding of Jetpack Compose and declarative UI patterns.
+● Experience with Dependency Injection (Hilt/Dagger).
+● Familiarity with architectural patterns like MVVM / MVI / Clean Architecture.
+● Experience with Unit Testing and UI Testing frameworks (JUnit, Espresso, MockK).
+● Experience integrating third-party SDKs (Firebase, Crashlytics, Analytics, etc.).
+● Knowledge of CI/CD tools such as Bitrise, Jenkins, or GitHub Actions.
+● Understanding of the full mobile development life cycle.
+● Experience with Agile/Scrum methodologies.
+● Excellent problem-solving skills and attention to detail.
+
+Good to Have
+● Exposure to modular app development and multi-module projects.
+● Understanding of performance optimization and memory management in Android.
+● Experience with Jetpack Compose animation and custom layouts.
+● Familiarity with tools like SonarQube, Lint, or static analysis.
+● Contribution to open-source projects or a strong GitHub portfolio.
