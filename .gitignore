@@ -1,15 +1,57 @@
+# Gradle files
+.gradle/
+/build
+/gradle
+gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Local configuration file
+local.properties
+
+# Android Studio
 *.iml
-.gradle
-/local.properties
+.idea/
+*.iws
+*.ipr
+.DS_Store
+
+# Build output
+/bin
+/gen
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Android Studio-specific files
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
 /.idea/workspace.xml
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# Captures folder
+/captures
+
+# Lint results
+lint-results.xml
+lint-results-*.html
+
+# IDE-specific files
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Kotlin
+.kotlin_metadata
+
+# Generated files
+generated/
+.apt_generated/
