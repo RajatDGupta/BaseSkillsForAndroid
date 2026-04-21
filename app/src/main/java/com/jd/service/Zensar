@@ -1,0 +1,29 @@
+Key Responsibilities
+
+Develop and maintain advanced Android applications using Kotlin (and Java if required).
+Collaborate with product, UX, backend, and QA teams to deliver high‑quality mobile banking features.
+Integrate Android applications with banking APIs, payment systems, authentication modules, and real‑time transaction services.
+Implement secure coding practices and ensure compliance with RBI, PCI-DSS, and other banking regulations.
+Optimize app performance, network usage, battery consumption, and security.
+Perform code reviews, write unit tests, and support automated delivery pipelines.
+Diagnose and fix complex system issues, crashes, and compatibility problems.
+🔹 Required Skills & Experience
+
+4–8+ years of experience in Android development.
+Strong expertise in Kotlin, Jetpack Components, Android SDK, LiveData, and Coroutines.
+Experience with MVVM, Clean Architecture, and dependency injection (Dagger/Hilt/Koin).
+Proven exposure to banking apps, financial transactions, UPI, card payments, and wallet integrations.
+Deep understanding of:
+Encryption protocols & secure storage
+Biometric authentication
+HTTPS, SSL pinning
+Hands-on with:
+Android Studio
+Git / Bitbucket
+CI/CD, Firebase Crashlytics, analytics tools
+Strong knowledge of consuming RESTful APIs, WebSockets, and JSON.
+🔹 Preferred Qualifications
+
+Experience with ISO 8583, ISO 20022, or digital payments infrastructure.
+Exposure to cloud-native applications and microservices.
+Experience building high‑scale transactional banking mobile apps.
