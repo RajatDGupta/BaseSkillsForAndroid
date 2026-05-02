@@ -1,0 +1,305 @@
+Job description
+Location: Bangalore (Onsite)
+
+Department: Engineering Mobile (Android)
+
+Reports To: Android Staff Engineer / Engineering Manager / Pod Lead
+
+About POP
+
+POP is building the most ambitious app blending UPI payments, credit cards, shopping, rewards, and utilities into one seamless native experience. We design for speed, trust, and delight powered by micro-frontend architecture, AI-first development, and deep modularity across platforms. Were looking for a passionate Android Engineer (SDE-2) who can craft high-performance, scalable, and secure experiences across multiple POP modules.
+
+
+Role Overview
+
+As an Android SDE-2, youll be responsible for designing, developing, and optimizing native Android modules within POPs evolving super-app architecture. Youll collaborate closely with platform leads, backend engineers, and product designers to build modular, scalable, and testable Kotlin/Jetpack components ensuring seamless integration, consistency, and reliability across all POP verticals.
+
+Key Responsibilities
+
+1. Product Development
+
+Build and maintain native Android modules for core features such as UPI, Card, Shop, RCBP, and Rewards
+Write clean, reusable, and scalable Kotlin / Jetpack Compose / Android View-based UI code following POPs modular architecture (Multi-module + Gradle-based setup)
+Collaborate with cross-functional teams to translate design specs and PRDs into high-quality production-ready code.
+Ensure smooth UX with animations, transitions, and gesture handling
+
+2. Architecture & Performance
+
+Contribute to micro-frontend architecture and inter-module communication using Kotlin Flows / SharedFlows / Coroutines
+Apply MVVM / Clean Architecture and SOLID principles
+Optimize app performance for startup time, memory usage, and p90/p99 latency
+Implement efficient caching, pagination, and offline-first strategies using Room / SQLite
+
+3. Security & Reliability
+
+Implement SSL pinning, RASP validation, encryption, root detection
+Ensure compliance with UPI and PCI DSS standards
+Work with QA and Security teams for runtime monitoring, vulnerability testing, and hardening
+
+4. Automation & AI Integration
+
+Integrate AI-powered developer tools (code quality, crash prediction, performance insights)
+Write unit tests and UI tests using JUnit, Espresso, and Compose Testing
+Participate in shift-left testing with QA and automation teams
+
+5. Collaboration & Process
+
+Participate in sprint planning, design discussions, and code reviews
+Mentor junior Android engineers when needed
+Contribute to internal SDKs, shared UI libraries, and DevTools
+Debug complex issues across layers UI, networking, data, and concurrency
+
+Required Skills & Experience
+
+
+3–6 years of hands-on Android development experience
+Strong command of Kotlin, Android SDK, Jetpack libraries (Compose, ViewModel, LiveData/Flow)
+Experience with Coroutines, Flow / Reactive programming
+Experience with dependency injection (Hilt / Dagger)
+Strong understanding of modular architecture (multi-module Gradle projects)
+Proficiency with REST / GraphQL APIs and async programming
+Familiarity with CI/CD tools (Jenkins, GitHub Actions) and monitoring tools (Crashlytics / New Relic)
+Experience writing unit tests + UI tests
+Good understanding of Play Store release process, signing, and versioning
+
+Preferred (Nice to Have)
+
+
+Experience in payments / fintech / UPI applications
+Familiarity with ML Kit, CameraX, or Vision APIs
+Experience contributing to open-source libraries or internal SDKs
+Interest in AI-driven development tools and predictive analytics
+
+Traits We Value
+
+
+Strong ownership and attention to performance & user experience
+Collaborative mindset — ability to work across pods and teams
+Bias for action — ship fast, iterate faster
+Focus on clean, testable, maintainable code
+Belief in AI-first engineering and data-driven decisions
+
+What You’ll Get
+
+
+Opportunity to build India’s most innovative Super App on Android
+Work closely with platform architects and senior engineers
+Exposure to AI-powered developer tooling and next-gen architectures
+Competitive compensation and fast-track career growth
+Role: Back End Developer
+Industry Type: FinTech / Payments
+Department: Engineering - Software & QA
+Employment Type: Full Time, Permanent
+Role Category: Software Development
+Education
+UG: Any Graduate
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+KotlinJetpack Compose
+MVVMCameraXRest ApisCi/CdJetpackFlowRest Api IntegrationDependency InjectionRESTVision APISoftware EngineeringGraphql ApisAndroid SDK
+
+
+
+
+
+
+-  ✅ Day 1 – Core Android + Kotlin Deep Dive
+
+   Focus on explaining, not just knowing.
+
+   Must cover:
+   Coroutines vs Threads
+   Flow vs LiveData vs SharedFlow/StateFlow
+   MVVM + Clean Architecture (VERY IMPORTANT)
+
+   👉 Be ready to answer:
+
+   “How does Flow work internally?”
+   “Cold vs Hot Flow?”
+   “Why use StateFlow in UI?”
+   Also revise:
+   Jetpack Compose basics
+   Recomposition
+   State hoisting
+   remember / mutableStateOf
+
+   ✅ Day 2 – Architecture + Performance + System Thinking
+   🔧 Modular Architecture
+   What is multi-module?
+   Why use it? (build time, scalability, ownership)
+
+   👉 Example answer:
+
+   “We separated features like payments, profile, and rewards into modules to reduce build time and allow parallel development.”
+
+   ⚡ Performance
+
+   Focus on:
+
+   App startup optimization
+   Lazy loading
+   Avoiding memory leaks
+
+   👉 Be ready:
+
+   “How do you reduce app startup time?”
+   “What causes ANRs?”
+   🗄️ Data Layer
+   Room vs SQLite
+   Caching strategies
+   Pagination (Paging 3 basics)
+
+
+   ✅ Day 3 – Fintech + Interview Practice
+   💳 UPI Basics (IMPORTANT)
+
+   You don’t need deep NPCI-level knowledge, but know:
+
+   What is UPI?
+   Intent flow
+   Collect vs Pay
+   🔐 Security Basics
+   SSL pinning (WHY, not just WHAT)
+   Root detection
+   Encryption basics
+   🧪 Testing
+   Unit test vs UI test
+   JUnit vs Espresso vs Compose Testing
+   💡 Questions YOU Will Definitely Get
+   🔹 Kotlin / Flow
+   Difference between Flow, StateFlow, SharedFlow?
+   How do you handle errors in Flow?
+   🔹 Architecture
+   Explain MVVM with an example
+   How would you design a payments module?
+   🔹 Debugging
+   “App is slow — what do you check?”
+   “Crash in production — how do you debug?”
+
+   Mention tools like:
+
+   Firebase Crashlytics
+   New Relic
+   🔹 Practical Scenario
+
+   They LOVE this:
+
+   “Design a rewards screen with API + caching + offline support”
+
+   Structure your answer:
+
+
+   UI (Compose)
+
+
+   ViewModel (StateFlow)
+
+
+   Repository
+
+
+   API + Room cache
+
+
+
+   🧠 How to Answer (This is the real differentiator)
+   Don’t say:
+
+   “I used Flow”
+
+   Say:
+
+   “I used StateFlow in ViewModel to expose UI state because it’s lifecycle-aware and avoids stale data issues compared to LiveData.”
+
+
+   🎯 Mock Answer Template (Use This)
+   When asked ANY system question:
+   1. Clarify
+
+   “Do we need offline support?”
+
+   2. High-level design
+
+   “I’ll use MVVM with repository pattern”
+
+   3. Break layers
+
+
+   UI
+
+
+   ViewModel
+
+
+   Domain
+
+
+   Data
+
+
+   4. Mention tools
+
+
+   Coroutines
+
+
+   Flow
+
+
+   Room
+
+
+   Retrofit
+
+
+   5. Edge cases
+
+
+   Network failure
+
+
+   Caching
+
+
+   Loading states
+
+
+
+   ⚠️ Common Mistakes to Avoid
+
+
+   Saying “I don’t know” too quickly → try reasoning
+
+
+   Only theory, no real examples
+
+
+   Ignoring performance & edge cases
+
+
+   Not asking clarifying questions
+
+
+
+   🎯 Final Prep Checklist
+   Before Thursday, make sure you can:
+   ✔ Explain MVVM clearly
+   ✔ Write a Flow-based ViewModel
+   ✔ Explain Compose recomposition
+   ✔ Design a feature end-to-end
+   ✔ Talk about one real project deeply
+
+   🚀 If You Want
+   I can:
+
+
+   Take a mock interview
+
+
+   Give you top 20 questions with answers
+
+
+   Help you prepare your project explanation (VERY IMPORTANT)
+
+
+   Just tell me 👍
