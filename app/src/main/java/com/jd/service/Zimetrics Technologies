@@ -1,0 +1,26 @@
+Job description
+
+Job Responsibilities:
+
+
+Own the Android SDK end-to-end, including architecture, feature development, bug fixes, version releases, and integration documentation.
+Write and maintain unit and integration tests using JUnit and Espresso.
+Manage SDK distribution via Maven and Gradle (AAR publishing); own versioning and release scheduling.
+Build and improve CI/CD pipelines using Fastlane and GitHub Actions; maintain automation scripts in Python, and Shell.
+Debug production issues - memory leaks, crashes, integration failures - using Android Studio Profiler (Memory, CPU, Energy).
+Build and maintain sample and demo apps for supply and demand partners.
+Implement and maintain support for interactive ad formats (banner, interstitial, rewarded, native, video) following MRAID, VAST, and OpenRTB standards.
+Develop and maintain mediation adapters for AdMob / GAM, AppLovin MAX, and IronSource.
+Collaborate with backend and data teams on API contracts and feature design.
+Support Sales Engineering and partner integrations with technical SDK expertise.
+
+Required skills
+
+7+ years of professional Android development; strong proficiency in Java, solid working knowledge of Kotlin
+Deep familiarity with the Android SDK (API 24+): View system, WebView, lifecycle, threading, memory management, and the Android runtime
+Experience developing and distributing SDKs as binaries not just app development
+Hands-on experience with Gradle build configuration and Maven AAR publishing
+Solid test writing with JUnit and Espresso across functional and edge-case scenarios
+Proficiency with Fastlane and Ruby or Python scripting for CI automation
+Experience profiling and resolving performance issues in Android Studio Profiler
+Clear communicator: comfortable with technical documentation, cross-team collaboration, and partner-facing discussions

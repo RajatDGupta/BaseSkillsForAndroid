@@ -1,43 +1,18 @@
-1) Greeting
-2) Thanks them
-3) Name
-4) Place
-5) Your Job
-6) Personality
-7) Qualification
-8) Skill and Exp
-9) Family
-10) Hobbies
-11) End your
+“Hi, I’m Neeraj Gupta, a Senior Android Developer with over 7.5 years of experience designing and building high-performance Android applications.
+ My expertise is in Kotlin and Java, and I specialize in MVVM, Clean Architecture, modular system design,
+ and building reusable SDKs.
 
-1) Hello Good afternoon/morning sir.
-2) Thanks for giving me the opportunity.
-3) My name is Neeraj Gupta.
-4) I am from Pune.
-5) I am goal-oriented person.
-6) I have a master's degree in computer application from Pune University.
-7) I have 4.5 yrs of exp in Native android development.
-8) Currently I am working as Sr. Android developer in BAJAJ MARKETS.
-9) My Hobbies are cooking and reading.
-10) That's all about me. Thanks you?
+I’ve worked extensively in fintech, trading, payments, and large-scale consumer apps, supporting millions of users.
+For example, at Fidelity Investments, I managed trading workflows handling over 3.5 million transactions daily,
+improved app stability, and reduced production bugs by 30% through strong architecture and code ownership.
+ I also built Bulk SMS features and Passkey authentication for Vonage’s communication app,
+ optimizing real-time messaging and authentication for half a million active users.
 
+I’m highly experienced with Jetpack Compose, Coroutines, Flow, Retrofit, GraphQL, Room, Hilt, Dagger,
+and modern CI/CD pipelines like GitHub Actions and Bitrise. I’ve also integrated Firebase and
+other analytics tools to improve performance, user engagement, and conversion tracking.
 
-// Why you are leaving the job
-1) domain
-2) Career growth
-3)
-
-// strength
-1) Team work
-2) Team Leading
-3) Problem Solving
-
-
-// Two week ness
-1) impatience
-2) multitasking
-
-
-
-
-
+Beyond coding, I focus on building scalable, maintainable, and modular systems that make apps reliable,
+performant, and easy to extend. I enjoy mentoring teams, adopting AI-assisted development tools,
+and continuously optimizing apps to reduce crashes and improve responsiveness. Overall,
+I’m passionate about delivering robust Android solutions that users love and businesses rely on

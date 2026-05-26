@@ -1,0 +1,69 @@
+1. Prefer coroutineScope Over Manual launch
+
+Use the coroutineScope suspending builder for parallel work.
+It automatically waits for all internal children to finish.
+It destroys children if any sibling throws an exception.
+
+// LEAK-FREE: Naturally scoped, blocks return until all tasks finish
+suspend fun fetchDashboardData(): Dashboard = coroutineScope {
+    val user = async { repository.getUser() }
+    val news = async { repository.getNews() }
+    Dashboard(user.await(), news.await())
+}
+
+
+
+2. Never Use GlobalScope
+
+GlobalScope operates completely outside structured concurrency.
+It keeps tasks alive even if your UI or screen is destroyed.
+Replace it with class-level, lifecycle-bound scopes.
+
+// BAD: Leaks memory if the caller drops the reference
+GlobalScope.launch { doHeavyWork() }
+
+// GOOD: Bound to a controlled lifecycle scope
+class MyManager(private val scope: CoroutineScope) {
+    fun start() = scope.launch { doHeavyWork() }
+}
+
+
+3. Clean Resources inside finally
+
+Cancellation triggers a CancellationException inside the coroutine.
+Always release heavy objects or listeners inside a finally block.
+
+scope.launch {
+    try {
+        registerExpensiveListener()
+        delay(10000)
+    } finally {
+        // This ALWAYS runs, even during cancellation, preventing leaks
+        unregisterExpensiveListener()
+    }
+}
+
+4. Collect Flows Safely on Android
+
+Regular flow.collect() keeps running even if the app goes to the background.
+Use repeatOnLifecycle or flowWithLifecycle to stop collection.
+This automatically destroys the collector coroutine when the UI stops.
+
+lifecycleScope.launch {
+    // Automatically cancels collection when UI stops, releasing memory
+    myFlow.flowWithLifecycle(lifecycle, Lifecycle.State.STARTED)
+        .collect { data -> updateUI(data) }
+}
+
+
+5. Check isActive in CPU-Heavy Loops
+
+Cancellation is cooperative; a tight loop can ignore cancellation.
+If a coroutine cannot stop, it holds onto all its captured variables.
+Insert ensureActive() or check isActive inside loops.
+
+scope.launch(Dispatchers.Default) {
+    while (isActive) { // Keeps the loop cooperative with structured cancellation
+        processNextChunk()
+    }
+}
