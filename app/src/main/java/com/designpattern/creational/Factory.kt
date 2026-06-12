@@ -1,39 +1,32 @@
 package com.designpattern.creational
 
-interface ICurrency {
-
-    fun code(): String
+interface Payment {
+    fun pay()
 }
-
-class Euro : ICurrency {
-    override fun code(): String {
-        return "EUR"
+class CardPayment : Payment {
+    override fun pay() {
+        println("Paid using Card")
     }
 }
 
-class UnitedStatesDollar : ICurrency {
-    override fun code(): String {
-        return "USD"
+class UpiPayment : Payment {
+    override fun pay() {
+        println("Paid using UPI")
     }
 }
 
-enum class Country {
-    UnitedStates, Spain, UK, Greece
-}
+object PaymentFactory {
 
-fun currency(country: Country): ICurrency? {
-    return when (country) {
-        Country.Spain, Country.Greece -> Euro()
-        Country.UnitedStates -> UnitedStatesDollar()
-        else -> null
+    fun create(type: String): Payment {
+        return when(type) {
+            "CARD" -> CardPayment()
+            "UPI" -> UpiPayment()
+            else -> throw IllegalArgumentException()
+        }
     }
 }
 
-fun main(args: Array<String>) {
-    val noCurrencyCode = "I am not Creative, so Currency Code Available"
-
-    println(currency(Country.Greece)?.code() ?: noCurrencyCode)
-    println(currency(Country.Spain)?.code() ?: noCurrencyCode)
-    println(currency(Country.UnitedStates)?.code() ?: noCurrencyCode)
-    println(currency(Country.UK)?.code() ?: noCurrencyCode)
+fun main() {
+    val payment = PaymentFactory.create("UPI")
+    payment.pay()
 }

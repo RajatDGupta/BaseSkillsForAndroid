@@ -1,0 +1,7 @@
+| Pattern          | Purpose                      | Android Example     |
+| ---------------- | ---------------------------- | ------------------- |
+| Singleton        | Single instance              | Retrofit, Room      |
+| Factory          | Create objects               | ViewModelFactory    |
+| Abstract Factory | Create related families      | Theme systems       |
+| Builder          | Step-by-step object creation | AlertDialog.Builder |
+| Prototype        | Clone existing object        | data class copy()   |
