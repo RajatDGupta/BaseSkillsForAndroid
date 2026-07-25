@@ -1,4 +1,4 @@
-package com.ds.queue
+package com.ds.programms.queue
 
 import java.util.*
 import java.util.concurrent.PriorityBlockingQueue
