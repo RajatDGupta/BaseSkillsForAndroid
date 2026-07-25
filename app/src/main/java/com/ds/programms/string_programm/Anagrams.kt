@@ -17,6 +17,11 @@ fun isAnagram(x:String,y:String):Boolean{
     return a.contentEquals(b)
 }
 
+
+fun isAnagram2(a: String, b: String): Boolean {
+    return a.toCharArray().sorted() == b.toCharArray().sorted()
+}
+
 fun main() {
   println(isAnagram("AAA","AAA"))
 }

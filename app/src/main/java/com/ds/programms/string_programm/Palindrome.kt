@@ -17,6 +17,10 @@ fun palindrome(str: String):Boolean{
     return reverse == str
 }
 
+fun isPalindrome(str: String): Boolean {
+    return str == str.reversed()
+}
+
 fun main() {
     println(palindrome("ABA"))
 }

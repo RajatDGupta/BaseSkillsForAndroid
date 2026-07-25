@@ -8,18 +8,16 @@
 
 
 
-fun findMissingNo(arr: IntArray): Int {
-    val n = arr.size
-    val N=n+1
-    val sum1 = ((N) * (N + 1)) / 2
-    var sum2 = 0
-    for (i in arr.indices) {
-        sum2 += arr[i]
-    }
-    return sum1 - sum2
+fun missingNumber(arr: IntArray): Int {
+
+    val n = arr.size + 1
+
+    val total = n * (n + 1) / 2
+
+    return total - arr.sum()
 }
 
 
 fun main() {
-  println(findMissingNo(intArrayOf(1, 2, 3,5)))
+  println(missingNumber(intArrayOf(1, 2, 3,5)))
 }

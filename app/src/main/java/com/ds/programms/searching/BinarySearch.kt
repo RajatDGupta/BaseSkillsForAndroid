@@ -11,7 +11,7 @@ fun main(args: Array<String>){
 fun binarySearch(element: Int, array: Array<Int>): Int {
     Arrays.sort(array)
 
-    var index: Int = 0
+    var index = 0
     var end = array.size - 1
 
     while(index <= end){

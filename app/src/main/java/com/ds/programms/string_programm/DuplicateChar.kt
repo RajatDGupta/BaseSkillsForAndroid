@@ -1,5 +1,8 @@
 package com.ds.programms.string_programm
 
+import android.os.Build
+import androidx.annotation.RequiresApi
+
 /**
  * Created by 1000292 on 20-11-2022
  * BFDL
@@ -31,6 +34,19 @@ fun findDuplicateChar(str: String) {
     /*val map = "Hello World".groupingBy { it }.eachCount()
     print(map)*/
 }
+
+
+@RequiresApi(Build.VERSION_CODES.N)
+fun frequency(str: String) {
+    val map = mutableMapOf<Char, Int>()
+
+    for (c in str) {
+        map[c] = map.getOrDefault(c, 0) + 1
+    }
+
+    println(map)
+}
+
 
 fun converterCamelCase(original: String): Int {
     val lista = mutableListOf<String>()

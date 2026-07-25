@@ -136,3 +136,96 @@ If you want, I can:
 * Tailor your **resume for this role**
 * Generate **interview questions**
 * Or assess how well your profile matches this job 👍
+
+
+--------------------------------------------------------------------------------------------------------
+
+That's actually an advantage—you have time to prepare properly instead of cramming.
+
+Since the interview isn't scheduled yet, I'd recommend preparing in phases rather than trying to memorize everything at once.
+
+### Week 1: Strengthen Core Android
+
+* Kotlin (Coroutines, Flow, Collections)
+* Jetpack Compose
+* MVVM, MVI, Clean Architecture
+* Hilt and Dependency Injection
+* Room, Retrofit, GraphQL
+
+### Week 2: Banking & Identity
+
+* OAuth 2.0 and OpenID Connect (OIDC)
+* JWT access and refresh tokens
+* Android Keystore
+* BiometricPrompt
+* SSL Pinning
+* Certificate validation
+* OWASP Mobile Top 10
+
+### Week 3: Advanced Android
+
+* SDK/Library development
+* Performance optimization
+* Unit testing (JUnit, MockK, Turbine)
+* Compose UI testing
+* CI/CD (GitHub Actions, Bitrise)
+* Modularization
+
+### Week 4: Interview Practice
+
+* Mock coding questions
+* System design
+* Behavioral (STAR) questions
+* Resume walkthrough
+* AI-assisted development questions
+
+---
+
+## Since this is Backbase, I'd prioritize these topics:
+
+### High Priority ⭐⭐⭐⭐⭐
+
+* Kotlin
+* Coroutines & Flow
+* Jetpack Compose
+* MVVM/MVI
+* Clean Architecture
+* Mobile Security
+* Authentication (OAuth2, JWT, Biometrics)
+* SDK design
+* Unit Testing
+
+### Medium Priority ⭐⭐⭐⭐
+
+* GraphQL
+* CI/CD
+* Firebase Crashlytics
+* Performance optimization
+* AI tools (GitHub Copilot, Cursor)
+
+### Lower Priority ⭐⭐⭐
+
+* Jenkins
+* Play Store publishing
+* RxJava (if you're stronger with Coroutines, just know the basics and migration concepts)
+
+---
+
+## We can prepare together
+
+Based on your previous questions, I know you've already been working on topics like Compose, MVI, Flow testing, and Android interview preparation.
+
+I can help you with a structured preparation plan that includes:
+
+1. **50 Android interview questions** (basic to advanced)
+2. **30 Kotlin coding questions** with solutions
+3. **20 mobile security questions**
+4. **20 Jetpack Compose questions**
+5. **20 Coroutines & Flow questions**
+6. **15 System Design questions** for Android
+7. **10 AI-assisted development questions**
+8. **HR and behavioral questions**
+9. **Mock interview sessions** where I act as the interviewer and provide feedback.
+
+This approach will prepare you not just for Backbase, but also for other senior Android roles at companies like Razorpay, PhonePe, CRED, Groww, and similar product organizations.
+

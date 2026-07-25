@@ -97,20 +97,7 @@ package com.solidprinciple
  ```kotlin
  // presentation/viewmodel/UserViewModel.kt
 
- class UserViewModel(
-     private val userRepository: UserRepository
- ) : ViewModel() {
 
-     private val _user = MutableLiveData<User>()
-     val user: LiveData<User> = _user
-
-     fun loadUser(userId: Int) {
-         viewModelScope.launch {
-             val userData = userRepository.getUser(userId)
-             _user.postValue(userData)
-         }
-     }
- }
  ```
 
  The ViewModel code does not care which `UserRepository` implementation is injected.

@@ -32,3 +32,7 @@ fun reverseString_(string: String):String{
   }
   return stringBuilder.toString()
 }
+
+fun reverseStringInbuilt(str: String): String {
+    return str.reversed()
+}

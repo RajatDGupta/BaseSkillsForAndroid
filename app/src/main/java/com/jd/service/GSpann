@@ -1,23 +1,48 @@
-Job Description:
+Job description
+Primary Responsibilities:
+• Design, develop, and maintain high quality crash free Android application using modern Android technologies.
+• Build end-to-end mobile solutions from requirement analysis to deployment.
+• Develop scalable, reusable, and maintainable code following Android best practices.
+• Define and Implement application architecture using MVVM and Clean Architecture principles.
+• Write unit, integration, and UI tests to endure application reliability.
+• Integrate external hardware devices into Android application using Bluetooth APIs.
+• Ensure application security and compliance with mobile security standards.
+• Optimize application performance, startup time, memory usage and battery consumption.
+• Troubleshoot QA/UAT/Prod issues and improve application stability.
+• Collaborate with Tech Lead and Product owner to understand the requirements.
 
-We are looking for an experienced Senior Android Engineer who can build and ship apps using the latest technology on Android devices to deliver innovative digital experiences that serve consumers and also should have exposure towards iOS app development.
-The ideal candidate should have a deep knowledge of Android Native, along with a commitment to collaborative problem-solving, sophisticated design and solid reliability.
+Mandatory Skills:
+• Programming Language: Kotlin (Expert)
+• Android UI Development: Jetpack compose, Material Design3, ViewBinding/DataBinding.
+• Android Architecture: MVVM, Repository Pattern, Clean Architecture, SOLID Principles.
+• Jetpack Components: ViewModel, Lifecycle, Navigation Component, CameraX, WorkManager, Media3, Bluetooth API.
+• Asynchronous programming: Kotlin Coroutines, Flow, StateFlow, SharedFlow.
+• Dependency Injection: Hilt, Koin.
+• Local Data Management: Room DB, DataStore (secure preferences and Proto).
+• Security: Android Keystore, Encrpted/Decrypted storage.
+• Testing: Junit, Compose UI, Roboelectric, Instrumentation.
+• Performance Optimization: Memory Leak Analysis, Android Profiler, R8/Progaurd.
+• Build & Development Tools: Android Studio, Gradle, Gradle Kotlin DSL.
+• Strong understanding of the Android Permissions framework, including runtime permissions and modern Activity Result API.
+• Experience handling API level differences, backward compatibility, and feature gating using AndroidX libraries.
 
-Core Skills:
+Desirable Skills:
+• Awareness of Java programming.
+• Offline only application development.
+• Good to know Cordova based application using Java Script.
+• Good knowledge on confluence.
+• Familiar to Agile/Scrum and code reviews.
+• AI/ML integration.
+• Build and maintain CI/CD pipelines and automated deployments.
 
-·     Kotlin, Java, and Jetpack Compose Knowledge in Swift and SwiftUI
-·     Tools: JIRA, Git, Android Studio, XCode
-·     Solid understanding of Mobile App Development life cycle like design, develop, test and deployment
-·     Proficient in object-oriented programming, following SOLID principles and MVVM, Viper, MVC ,Clean architectures
-·     Familiarity with RESTful APIs, third-party libraries, and integration with back-end services.
-·     Knowledge of mobile development best practices, Debugging, including UI/UX design principles
-·     Working knowledge of Agile and Scrum, CI/CD
-·     Experience with writing Unit tests Follow Clean Architecture and MVVM principles
-
-Key Responsibilities:
-
-·     Develop high quality, consumer-grade features on Android using Kotlin and in iOS using SwiftUI
-·     Ensure the performance, quality, and responsiveness of applications.
-·     Collaborate with team to define, design, test, and ship new features.
-·     Utilize standards and methodologies to maintain code quality and organization.
-·     Provides story or business requirements breakdown planning and estimates.
+Role: Mobile / App Developer
+Industry Type: IT Services & Consulting
+Department: Engineering - Software & QA
+Employment Type: Full Time, Permanent
+Role Category: Software Development
+Education
+UG: Any Graduate
+Key Skills
+Skills highlighted with ‘‘ are preferred keyskills
+MVVMJetpack ComposeAndroid StudioKotlinAndroid
+Android Application Development
