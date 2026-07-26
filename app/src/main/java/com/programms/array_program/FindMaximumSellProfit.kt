@@ -1,4 +1,4 @@
-package com.ds.programms.array_program
+package com.programms.array_program
 
 import kotlin.math.max
 import kotlin.math.min

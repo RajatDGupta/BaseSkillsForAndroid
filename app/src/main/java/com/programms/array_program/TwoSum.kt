@@ -1,4 +1,4 @@
-package com.ds.programms.array_program
+package com.programms.array_program
 
 fun twoSum(nums: IntArray, target: Int): IntArray {
     val map = HashMap<Int, Int>()

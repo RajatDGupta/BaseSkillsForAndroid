@@ -1,4 +1,4 @@
-package com.ds.programms.array_program
+package com.programms.array_program
 
 /**
  * Created by 1000292 on 02-11-2022

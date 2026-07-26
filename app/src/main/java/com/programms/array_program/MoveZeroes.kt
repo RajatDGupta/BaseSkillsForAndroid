@@ -1,20 +1,24 @@
-package com.ds.programms.array_program
+package com.programms.array_program
 
-fun moveZeroes(arr: IntArray) {
-    var left = 0
+fun moveZeroToEnd(arr: IntArray): IntArray {
 
-    for (right in arr.indices) {
-        if (arr[right] != 0) {
-            val temp = arr[left]
-            arr[left] = arr[right]
-            arr[right] = temp
-            left++
+    for (i in 0 until arr.size) {
+        for (j in 0 until arr.size - 1) {
+            if (arr[j] == 0) {
+                val temp = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+            }
         }
     }
 
-    println(arr.joinToString())
+    return arr
 }
 
+fun main() {
+    val arr = intArrayOf(1, 0, 2, 0, 3)
+    println(moveZeroToEnd(arr).joinToString())
+}
 
 
 /*

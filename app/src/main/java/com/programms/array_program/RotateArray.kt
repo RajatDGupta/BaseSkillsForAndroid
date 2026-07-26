@@ -1,4 +1,4 @@
-package com.ds.programms.array_program
+package com.programms.array_program
 
 fun rotate(arr: IntArray, k: Int): IntArray {
 
