@@ -1,4 +1,4 @@
-package com.ds.programms.string_programm
+ package com.programms.string_programm
 
 fun main(){
       println(reverseSentence("i like this program very much"))

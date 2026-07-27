@@ -1,1 +1,356 @@
 // How to protect you api key
+
+
+1. Secure Network Communication (Most Important)
+✅ Always use HTTPS
+Never use HTTP.
+Use TLS 1.2/1.3.
+<application
+    android:usesCleartextTraffic="false" />
+
+✅ SSL Certificate Pinning
+
+Prevents Man-in-the-Middle (MITM) attacks even if a fake certificate is trusted by the device.
+
+Example using OkHttp:
+
+val certificatePinner = CertificatePinner.Builder()
+    .add(
+        "api.example.com",
+        "sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+    )
+    .build()
+
+val client = OkHttpClient.Builder()
+    .certificatePinner(certificatePinner)
+    .build()
+
+Interview question:
+
+Why SSL Pinning?
+
+Answer:
+
+It ensures the app only trusts a specific server certificate/public key, preventing MITM attacks.
+
+....................................................................................................
+
+2. Never Store Sensitive Data in SharedPreferences
+
+❌ Bad
+
+prefs.edit()
+.putString("token", token)
+.apply()
+
+Use EncryptedSharedPreferences
+val masterKey = MasterKey.Builder(context)
+    .setKeyScheme(MasterKey.KeyScheme.AES256_GCM)
+    .build()
+
+val prefs = EncryptedSharedPreferences.create(
+    context,
+    "secure_pref",
+    masterKey,
+    EncryptedSharedPreferences.PrefKeyEncryptionScheme.AES256_SIV,
+    EncryptedSharedPreferences.PrefValueEncryptionScheme.AES256_GCM
+)
+
+....................................................................................................
+
+3. Store Keys in Android Keystore
+
+Never hardcode:
+
+❌
+
+const val API_KEY = "123456"
+
+Instead:
+
+Android Keystore
+Hardware-backed keys if available
+
+....................................................................................................
+
+4. Don't Hardcode Secrets
+
+Never store
+
+API keys
+Secret keys
+Passwords
+Client secrets
+
+inside APK.
+
+Attackers can easily decompile APK.
+
+Use
+
+Backend
+Remote Config (for non-secret values)
+Server-generated tokens
+
+....................................................................................................
+
+5. Use ProGuard / R8
+
+Obfuscates code.
+
+minifyEnabled true
+shrinkResources true
+
+ProGuard rules
+
+-keep class com.example.model.** { *; }
+
+Benefits
+
+Harder to reverse engineer
+Removes unused code
+
+....................................................................................................
+
+6. Root Detection
+
+Detect rooted devices.
+
+Example:
+
+File("/system/xbin/su").exists()
+
+or use RootBeer library.
+
+....................................................................................................
+
+
+7. Detect Emulator
+
+Prevent fraud.
+
+Build.FINGERPRINT.contains("generic")
+
+Useful in banking apps.
+
+....................................................................................................
+
+8. Biometric Authentication
+
+Use
+
+BiometricPrompt
+
+instead of passwords.
+
+Supports
+
+Fingerprint
+Face unlock
+
+....................................................................................................
+
+
+9. Use Android Keystore for Encryption
+
+Generate AES keys
+
+KeyGenerator.getInstance(
+    KeyProperties.KEY_ALGORITHM_AES,
+    "AndroidKeyStore"
+)
+
+Never expose encryption keys.
+
+....................................................................................................
+
+10. Secure JWT Tokens
+
+Store
+
+Access Token
+Refresh Token
+
+securely.
+
+Don't
+
+Log them
+Share through Intents
+
+....................................................................................................
+
+11. Protect Intents
+
+Instead of
+
+android:exported="true"
+
+Use
+
+android:exported="false"
+
+unless another app must access the component.
+
+....................................................................................................
+
+12. Secure Deep Links
+
+Validate
+
+Host
+Scheme
+Parameters
+
+Never trust user input.
+
+....................................................................................................
+
+
+13. Disable Backup
+
+Sensitive apps:
+
+android:allowBackup="false"
+
+....................................................................................................
+
+
+14. Prevent Screenshots
+
+For banking/payment screens:
+
+window.setFlags(
+    WindowManager.LayoutParams.FLAG_SECURE,
+    WindowManager.LayoutParams.FLAG_SECURE
+)
+
+Blocks screenshots and screen recording on many devices.
+
+....................................................................................................
+
+15. Encrypt Local Database
+
+For Room database
+
+Use SQLCipher.
+
+....................................................................................................
+
+16. Validate All Inputs
+
+Prevent
+
+SQL Injection
+XSS (when displaying web content)
+Command injection
+
+Never trust user input.
+
+....................................................................................................
+
+17. Secure WebView
+
+Disable unnecessary features.
+
+webView.settings.javaScriptEnabled = false
+
+If JavaScript is required, enable only for trusted content and avoid exposing unnecessary JavaScript interfaces.
+
+....................................................................................................
+
+18. SafetyNet / Play Integrity API
+
+Use the Play Integrity API to verify:
+
+Genuine app
+Genuine device
+Genuine Play Store installation
+
+Useful for banking and fintech apps.
+
+
+....................................................................................................
+
+
+19. Avoid Logging Sensitive Information
+
+❌
+
+Log.d("TOKEN", token)
+
+Remove logs in release builds.
+
+....................................................................................................
+
+20. Use Dependency Scanning
+
+Keep libraries updated.
+
+Regularly check for
+
+CVEs
+Security patches
+Vulnerable dependencies
+
+....................................................................................................
+
+21. Secure API Authentication
+
+Use
+
+OAuth 2.0
+JWT
+Short-lived access tokens
+Refresh tokens
+Token expiration
+Server-side validation
+
+Never trust client-side validation alone.
+
+....................................................................................................
+
+22. Protect Against Reverse Engineering
+R8/ProGuard
+String encryption (where appropriate)
+Native code (JNI) only for limited cases—not as a primary security measure
+Runtime integrity checks
+
+....................................................................................................
+
+23. Follow OWASP Mobile Top 10
+
+Be familiar with risks such as:
+
+Improper credential usage
+Inadequate supply chain security
+Insecure authentication/authorization
+Insufficient cryptography
+Insecure communication
+Privacy leaks
+Binary protection weaknesses
+
+....................................................................................................
+
+
+24. Secure Permissions
+
+Request only the permissions your app actually needs.
+
+Example:
+
+❌ Requesting Contacts when unnecessary.
+
+Follow the principle of least privilege.
+
+....................................................................................................
+
+25. Secure Authentication Flow
+Multi-factor authentication (when appropriate)
+Biometric authentication
+Session timeout
+Automatic logout after inactivity
+Refresh token rotation
+Device binding for high-security apps
+
+....................................................................................................

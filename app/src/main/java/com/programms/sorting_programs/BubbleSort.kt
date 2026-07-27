@@ -9,9 +9,9 @@ package com.ds.programms.sorting_programs
 // https://www.youtube.com/watch?v=v6hmmfIiKu4&list=PLlhM4lkb2sEgQ2nI2bsrKx5qIOAb7S7sc&index=1
 
 fun bubbleSort(arr: IntArray): IntArray {
-    for (i in arr.indices) {
+    for (i in 0 until arr.size) {
         var flag=0
-        for (j in 0 until arr.size - 1 - i) {
+        for (j in 0 until arr.size - 1) {
                 if (arr[j] > arr[j + 1]) {
                     val temp = arr[j]
                     arr[j] = arr[j + 1]

@@ -1,0 +1,90 @@
+| Term                                     | Definition                                                                                                                           | Example                                                  |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------- |
+| **AI (Artificial Intelligence)**         | The broad field of creating systems that perform tasks requiring human intelligence.                                                 | ChatGPT, self-driving cars                               |
+| **ML (Machine Learning)**                | A subset of AI where models learn patterns from data.                                                                                | Spam detection                                           |
+| **DL (Deep Learning)**                   | A subset of ML using neural networks with many layers.                                                                               | Image recognition                                        |
+| **LLM (Large Language Model)**           | A neural network trained on massive amounts of text to understand and generate language.                                             | GPT-5, Llama, Gemini                                     |
+| **SLM (Small Language Model)**           | A compact language model optimized for speed and lower resource usage.                                                               | Phi, Gemma 3n                                            |
+| **Prompt**                               | The input or instruction given to an LLM.                                                                                            | "Explain MVVM in Android."                               |
+| **Prompt Engineering**                   | Designing prompts to get better responses from an AI model.                                                                          | Using role, context, examples                            |
+| **Token**                                | The smallest unit an LLM processes (word or part of a word).                                                                         | "Android Developer" ≈ 2–3 tokens                         |
+| **Context Window**                       | The maximum number of tokens the model can consider in one conversation.                                                             | 128K-token context window                                |
+| **Embedding**                            | A numerical vector representation of text that captures its meaning.                                                                 | Used for semantic search                                 |
+| **Vector Database**                      | Stores embeddings for similarity search.                                                                                             | Pinecone, Milvus, Chroma, FAISS                          |
+| **RAG (Retrieval-Augmented Generation)** | Retrieves relevant information from an external knowledge base before generating an answer.                                          | Company chatbot searching internal documents             |
+| **Fine-tuning**                          | Further training an LLM on domain-specific data.                                                                                     | Training on banking documents                            |
+| **Inference**                            | Running a trained model to generate predictions or responses.                                                                        | ChatGPT answering your question                          |
+| **Hallucination**                        | When an AI confidently generates incorrect or fabricated information.                                                                | Making up a non-existent API                             |
+| **Temperature**                          | Controls randomness in generated text. Lower = deterministic, higher = creative.                                                     | 0.2 vs 1.0                                               |
+| **Top-k / Top-p**                        | Sampling methods that control which next-token candidates the model can choose from.                                                 | Improves generation quality                              |
+| **Agent**                                | An AI system that can reason, plan, use tools, and perform multi-step tasks.                                                         | AI travel planner                                        |
+| **Tool Calling / Function Calling**      | Lets an LLM invoke external APIs or functions.                                                                                       | Booking a flight through an API                          |
+| **MCP (Model Context Protocol)**         | A standard protocol that allows AI models to securely connect to external tools, databases, files, and services in a consistent way. | ChatGPT accessing GitHub or a database via an MCP server |
+| **API**                                  | An interface that lets applications communicate with AI models.                                                                      | OpenAI API                                               |
+| **Multimodal AI**                        | AI that understands multiple data types such as text, images, audio, and video.                                                      | Uploading a screenshot to ChatGPT                        |
+| **Transformer**                          | The neural network architecture behind modern LLMs, using self-attention to understand relationships between tokens.                 | GPT, BERT, Llama                                         |
+| **Attention Mechanism**                  | Helps the model focus on the most relevant parts of the input when generating output.                                                | Understanding long paragraphs                            |
+
+
+
+Artificial Intelligence (AI)
+        │
+        ├── Machine Learning (ML)
+        │       │
+        │       └── Deep Learning (DL)
+        │               │
+        │               └── Large Language Models (LLMs)
+        │                        │
+        │                        ├── Tokens
+        │                        ├── Context Window
+        │                        ├── Prompt
+        │                        ├── Embeddings
+        │                        ├── RAG
+        │                        ├── Tool Calling
+        │                        ├── MCP
+        │                        └── AI Agents
+
+
+
+Interview example: How RAG works
+
+User
+  │
+  ▼
+LLM receives question
+  │
+  ▼
+Retriever searches Vector DB
+  │
+  ▼
+Relevant documents found
+  │
+  ▼
+Documents + User Prompt
+  │
+  ▼
+LLM generates accurate answer
+
+Without RAG, the model relies only on what it learned during training. With RAG, it can use up-to-date or private information.
+
+
+Interview example: How MCP works
+
+User
+   │
+   ▼
+LLM
+   │
+   ▼
+MCP Client
+   │
+   ▼
+MCP Server
+   │
+   ├── GitHub
+   ├── Database
+   ├── Google Drive
+   ├── Slack
+   └── Internal APIs
+
+MCP provides a standard way for AI applications to discover and use external tools, instead of every tool requiring its own custom integration.

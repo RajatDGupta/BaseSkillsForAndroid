@@ -1,4 +1,4 @@
-package com.ds.programms.string_programm
+package com.programms.string_programm
 
 fun longestCommonPrefix(strs: Array<String>): String {
     if (strs.isEmpty()) return ""

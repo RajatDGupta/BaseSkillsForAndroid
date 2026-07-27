@@ -1,6 +1,7 @@
-package com.ds.programms.string_programm
+package com.programms.string_programm
 
 import java.util.Stack
+import kotlin.text.iterator
 
 fun isValid(s: String): Boolean {
 

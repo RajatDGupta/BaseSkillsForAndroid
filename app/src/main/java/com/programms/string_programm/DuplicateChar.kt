@@ -62,3 +62,10 @@ fun converterCamelCase(original: String): Int {
     lista.add(sb.toString())
     return lista.size
 }
+
+fun countCharacters(str: String) {
+
+    str.groupingBy { it }
+        .eachCount()
+        .forEach(::println)
+}
