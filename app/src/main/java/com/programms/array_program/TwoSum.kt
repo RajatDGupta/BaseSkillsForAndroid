@@ -14,3 +14,16 @@ fun findAllPairs(nums: IntArray, target: Int): List<Pair<Int, Int>> {
 
     return result
 }
+
+
+fun twoSum(arr:IntArray,target:Int):Set<Pair<Int,Int>>{
+    val pairList = mutableSetOf<Pair<Int,Int>>()
+    for( i in 0 until arr.size){
+        for( j in i+1 until arr.size){
+            if(arr[i]+arr[j]==target){
+                pairList.add(Pair(arr[i],arr[j]))
+            }
+        }
+    }
+    return pairList
+}
