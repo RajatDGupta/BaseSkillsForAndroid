@@ -1,6 +1,4 @@
-package com.ds.programms.missal
-
-import kotlin.math.sqrt
+package com.programms.missal
 
 /**
  * Created by 1000292 on 01-02-2023

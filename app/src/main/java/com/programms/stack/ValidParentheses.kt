@@ -1,4 +1,4 @@
-package com.programms.string_programm
+package com.programms.stack
 
 import java.util.Stack
 import kotlin.text.iterator
@@ -18,6 +18,7 @@ fun isValid(s: String): Boolean {
                     return false
             }
         }
+
     }
 
     return stack.isEmpty()

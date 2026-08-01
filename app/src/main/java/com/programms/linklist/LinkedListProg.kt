@@ -1,4 +1,4 @@
-package com.ds.programms.linklist
+package com.programms.linklist
 
 import java.util.*
 

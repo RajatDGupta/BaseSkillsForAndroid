@@ -1,4 +1,4 @@
-package com.ds.programms.missal
+package com.programms.missal
 
 fun gcd(a: Int, b: Int): Int {
 

@@ -1,4 +1,4 @@
-package com.ds.programms.pattern_programs
+package com.programms.pattern_programs
 
 /**
  * Created by 1000292 on 11-10-2022

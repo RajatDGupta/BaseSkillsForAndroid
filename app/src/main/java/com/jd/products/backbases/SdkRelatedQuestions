@@ -1,0 +1,116 @@
+
+Yes. If they mention the SDK is **fully customizable**, they will likely want to know how you approach integrating a reusable platform while still meeting each client's unique branding and business requirements.
+
+Here are some interview questions you can expect around that topic.
+
+## SDK Customization Questions
+
+### 1. What is a reusable SDK?
+
+**Sample answer:**
+
+> A reusable SDK is a pre-built set of components, APIs, and business logic that can be integrated into multiple applications. It speeds up development, ensures consistency, and reduces maintenance by avoiding duplicate implementations.
+
+---
+
+### 2. What does "fully customizable SDK" mean?
+
+**Sample answer:**
+
+> It means the core SDK provides common banking functionality, while clients can customize branding, themes, navigation, feature availability, authentication flow, and business rules without modifying the SDK's core implementation.
+
+---
+
+### 3. How would you integrate a banking SDK into a client's app?
+
+A good approach:
+
+* Review SDK documentation.
+* Add the dependency.
+* Configure authentication.
+* Configure environments (Dev/UAT/Production).
+* Apply client branding.
+* Enable or disable required modules.
+* Integrate APIs.
+* Test all user flows.
+* Perform security and performance validation.
+
+---
+
+### 4. A client wants a feature the SDK doesn't support. What would you do?
+
+**Good answer:**
+
+> First, I'd understand the business requirement. If the SDK supports extension points, I'd implement the feature without changing the SDK core. If not, I'd discuss the requirement with the platform team to determine whether it should be added to the SDK or implemented separately, ensuring maintainability and compatibility.
+
+---
+
+### 5. How do you keep SDK integrations maintainable?
+
+Mention:
+
+* Clean Architecture
+* Wrapper layer around the SDK
+* Avoid modifying SDK source
+* Dependency Injection
+* Feature flags
+* Version management
+* Comprehensive testing
+
+---
+
+### 6. How would you debug an SDK issue?
+
+* Check logs.
+* Reproduce the issue.
+* Verify SDK version.
+* Validate configuration.
+* Test with a sample application.
+* Review documentation.
+* Contact the SDK/platform team if necessary.
+
+---
+
+### 7. How would you customize the UI?
+
+Mention:
+
+* Jetpack Compose themes
+* Material Design
+* Colors
+* Typography
+* Icons
+* Branding
+* Dark mode
+* Localization
+
+---
+
+### 8. What are the benefits of a reusable banking SDK?
+
+* Faster development
+* Consistent user experience
+* Easier maintenance
+* Higher code quality
+* Reuse across multiple banking clients
+* Faster onboarding of new clients
+
+---
+
+## Scenario Question
+
+**Interviewer:**
+
+> Two banks use the same SDK, but one wants a completely different UI. How would you handle it?
+
+**Strong answer:**
+
+> I would keep the core business logic inside the SDK and expose configurable UI elements through themes, resource overrides, or extension APIs. If using Jetpack Compose, I'd leverage a customizable design system so each client can apply its own branding while reusing the same underlying business logic. This keeps the SDK maintainable while providing flexibility for different clients.
+
+---
+
+## One question you can ask them
+
+> "How is customization handled in your SDK? Is it primarily through configuration, theming, extension points, or do engineers also contribute new capabilities back to the core SDK for reuse across clients?"
+
+This question shows you're thinking about extensibility and long-term maintainability, which aligns well with a reusable banking SDK approach.

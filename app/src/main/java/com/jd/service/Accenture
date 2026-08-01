@@ -1,85 +1,169 @@
-Roles & Responsibilities:
-
- Participate in the design and build of the new UBS Mobile Banking
- Native Android (Kotlin/Java) development experience, familiar with design principles, knowledge of version control system (Git)
- Understanding of Google's Android design principles and design guidelines
- Experience in test driven development, continuous integration and deployment
- code and ship new features to production
- work with external data sources and APIs
- continuously discover, evaluate, and implement new technologies to maximize development efficiency
- providing tech solutions and ensuring adherence to good software practices
- partner with UX designers, architects, back-end development teams and QA to deliver a high quality product
- create, manage and automate continuous testing of the features you delivered
- be part of a strong international team and contribute to success of Mobile Excellence in UBS
-
-
-Professional & Technical Skills:
-
- a graduate degree in IT Software Engineering
- fundamental experience in designing secure, robust and scalable applications
- a positive attitude and a great interest in shaping the future of technology in banking
- native Android (Java/Kotlin) development experience
- Experience with Android/JetPack Compose
- Familiar with design principles
- Knowledge of Version Control System (Git)
- understanding of Google s Android design principles and interface guidelines
- experience in test driven development, continuous Integration and Deployment
- a strong software engineer with high dedication app development
- showing high degree of creativity by designing user-friendly applications
- a good team player
- a strong written and verbal communicator, comfortable interacting with colleagues in English
- analytical skilled person who manages to cope with complex challenges in software engineering
-
+Summary:
+We are seeking an experienced Android Developer with over 5 years of experience
+specializing in Kotlin and Jetpack Compose to design, build, and maintain secure,
+robust, and scalable mobile applications.
+The ideal candidate will demonstrate a positive attitude, a passion for innovation in banking technology,
+and a strong commitment to delivering high-quality, user-friendly applications
+aligned with the latest Android development trends.
 
 Roles & Responsibilities:
-
- Design and develop native Android applications using Kotlin and Jetpack Compose.
-
- Implement and maintain MVVM architecture following clean architecture and SOLID principles.
-
- Utilize Jetpack libraries such as Navigation, Live Data, and View Model for efficient app architecture.
-
- Perform UI and functional unit testing to ensure app reliability and quality.
-
- Integrate RESTful APIs and manage data persistence using Room and Datastores.
-
- Follow Google s Android design principles and interface guidelines to create intuitive and attractive UI/UX.
-
- Collaborate with cross-functional teams in an Agile environment, contributing to continuous integration and deployment (CI/CD).
-
- Stay updated on Android development trends including Kotlin Coroutines and Compose.
-
- Participate in code reviews and ensure adherence to best practices and coding standards.
-
- Demonstrate strong problem-solving skills and creativity in developing user-centric applications.
-
- Communicate effectively with team members and stakeholders in English.
-
+- Design and develop native Android applications using Kotlin and Jetpack Compose.
+- Implement and maintain MVVM architecture following clean architecture and SOLID principles.
+- Utilize Jetpack libraries such as Navigation, Live Data, and View Model for efficient app architecture.
+- Perform UI and functional unit testing to ensure app reliability and quality.
+- Integrate RESTful APIs and manage data persistence
+ using Room and Datastores.
+- Follow Google s Android design principles and interface guidelines to create intuitive and attractive UI/UX.
+- Collaborate with cross-functional teams in an Agile environment, contributing to continuous integration and deployment (CI/CD).
+- Stay updated on Android development trends including Kotlin Coroutines and Compose.
+- Participate in code reviews and ensure adherence to best practices and coding standards.
+- Demonstrate strong problem-solving skills and creativity in developing user-centric applications.
+- Communicate effectively with team members and stakeholders in English.
 
 Professional & Technical Skills:
+- Graduate degree in IT, Software Engineering, or related field.
+- Minimum 5+ years of experience in Android application development.
+- Proven experience with Kotlin and Jetpack Compose (MUST have).
+- Strong knowledge of design patterns including Structural, Creational, and Behavioral.
+- Experience implementing MVVM architecture with clean architecture and SOLID principles.
+- Hands-on experience with UI and functional unit testing.
+- Familiarity with RESTful API integration and data persistence mechanisms like Room and Datastores.
+- Proficient with version control systems such as Git and Bitbucket.
+- Knowledge of test-driven development (TDD), continuous integration, and deployment.
+- Understanding of Google s Android design principles and interface guidelines.
+- Strong analytical and problem-solving skills.
+- Excellent written and verbal communication skills in English.
+- A collaborative team player with a proactive and creative mindset.
 
- Graduate degree in IT, Software Engineering, or related field.
+Additional Information:
+- The candidate should have a more than 5 years of experience 
+- This position is based at our Pune office.
+- A 15 years full time education is required.
+15 years full time education
 
- Minimum 5+ years of experience in Android application development.
 
- Proven experience with Kotlin and Jetpack Compose (MUST have).
+..........................................................................................................
 
- Strong knowledge of design patterns including Structural, Creational, and Behavioral.
+Great! Since your interview is at 11:00 AM on 1st August, you have enough time to prepare strategically.
 
- Experience implementing MVVM architecture with clean architecture and SOLID principles.
+Based on your recent preparation and this JD, here's a focused plan.
 
- Hands-on experience with UI and functional unit testing.
+Day 1 (Today)
 
- Familiarity with RESTful API integration and data persistence mechanisms like Room and Datastores.
+Kotlin (2 hours)
 
- Proficient with version control systems such as Git and Bitbucket.
+Coroutines
+Flow vs StateFlow vs SharedFlow
+inline, crossinline, noinline
+Sealed classes
+Extension functions
 
- Knowledge of test-driven development (TDD), continuous integration, and deployment.
+Architecture (2 hours)
 
- Understanding of Google s Android design principles and interface guidelines.
+MVVM
+Clean Architecture
+SOLID Principles
+Repository Pattern
+Dependency Injection (Hilt)
 
- Strong analytical and problem-solving skills.
+Coding (1 hour)
+Solve 5 problems:
 
- Excellent written and verbal communication skills in English.
+Two Sum
+Valid Parentheses
+Move Zeroes
+Merge Sorted Arrays
+Reverse String
 
- A collaborative team player with a proactive and creative mindset.
+Day 2
+
+Jetpack Compose (3 hours)
+
+State management
+remember vs rememberSaveable
+Side effects (LaunchedEffect, DisposableEffect, SideEffect)
+Navigation
+LazyColumn optimisations
+Recomposition
+
+Jetpack Libraries (2 hours)
+
+ViewModel
+Room
+DataStore
+Paging 3
+WorkManager basics
+
+Testing (1 hour)
+
+JUnit
+Mockito
+Fake Repository
+Compose UI Testing
+Turbine
+
+
+Day 3 (31st July)
+Morning
+Retrofit
+OkHttp Interceptors
+Token Refresh
+Error Handling
+Offline Caching
+Afternoon
+
+Design Patterns:
+
+Singleton
+Factory
+Builder
+Adapter
+Observer
+Strategy
+Decorator
+
+Evening
+
+Mock interview:
+
+Introduce yourself (2 minutes)
+Explain one project
+Explain MVVM
+Explain Compose architecture
+Explain one difficult bug you fixed
+Interview Day (1st August)
+
+7:30–8:30 AM
+
+Review Kotlin notes
+Review Compose side effects
+Review SOLID principles
+
+8:30–9:30 AM
+
+Revise testing
+Revise Room and DataStore
+Review Retrofit flow
+
+9:30–10:15 AM
+
+Solve one easy coding problem
+Review your resume and projects
+
+10:15–10:45 AM
+
+Relax, avoid learning new topics
+Test your internet, camera, microphone, and interview setup
+Keep a notebook and water nearby
+Topics I'd expect in this interview
+Kotlin Coroutines and Flow
+Jetpack Compose
+MVVM + Clean Architecture
+SOLID Principles
+Hilt
+Room and DataStore
+Retrofit
+Unit Testing and Compose Testing
+Design Patterns
+One coding problem
+Project discussion and behavioural questions

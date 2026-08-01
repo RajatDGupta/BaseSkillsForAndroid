@@ -229,3 +229,138 @@ I can help you with a structured preparation plan that includes:
 
 This approach will prepare you not just for Backbase, but also for other senior Android roles at companies like Razorpay, PhonePe, CRED, Groww, and similar product organizations.
 
+...........................................................................................................
+
+What to expect
+
+The final interview typically covers:
+
+Your Android and architecture decisions at a high level
+Behavioural and situational questions
+Communication with clients and cross-functional teams
+Ownership and problem-solving
+Why you want to join Backbase
+Your previous projects and impact
+
+Since this is for the Customer Success (CS) department, expect questions about working directly with clients, handling changing requirements, and balancing technical quality with business needs.
+
+Questions you're very likely to be asked
+1. Tell me about yourself.
+
+Keep it to about 2 minutes.
+
+Include:
+
+7.5 years of Android experience
+Kotlin and Jetpack Compose
+FinTech/Product experience
+MVVM, Clean Architecture
+Delivering features from design to release
+
+2. Why Backbase?
+
+Mention points like:
+
+Backbase builds digital banking platforms.
+Opportunity to work with global banks.
+Product plus client interaction.
+Modern Android stack (Kotlin, Compose).
+Learning from large-scale enterprise projects.
+
+3. Why are you looking for a change?
+
+A good response:
+
+"My previous assignment ended, and I'm looking for a long-term opportunity where I can work on challenging Android products, contribute to architecture, and continue growing technically."
+
+Avoid criticising previous employers.
+
+4. Explain your favourite project.
+
+Structure your answer:
+
+What was the product?
+Your responsibilities
+Technologies used
+Biggest challenge
+Business impact
+
+5. What was the hardest bug you solved?
+
+Explain:
+
+The issue
+How you investigated it
+The root cause
+The solution
+What you learned
+
+6. Tell us about a disagreement with a teammate.
+
+Use the STAR format:
+
+Situation
+Task
+Action
+Result
+
+Focus on respectful communication and collaboration.
+
+7. Have you worked directly with clients?
+
+Even if your interaction was limited, explain how you:
+
+Joined requirement discussions
+Clarified expectations
+Provided technical estimates
+Demonstrated completed features
+
+8. How do you ensure code quality?
+
+Mention:
+
+Code reviews
+Unit tests
+UI tests
+Static analysis
+Clean Architecture
+SOLID principles
+CI/CD
+
+9. How do you estimate work?
+
+Talk about:
+
+Breaking stories into tasks
+Identifying dependencies
+Considering testing and edge cases
+Discussing risks early
+
+10. Why should we hire you?
+
+Highlight:
+
+Strong Android fundamentals
+Product experience
+Ownership
+Team collaboration
+Ability to learn quickly
+Technical discussion
+
+Be prepared to explain:
+
+MVVM
+Clean Architecture
+Repository Pattern
+Coroutines and Flow
+Jetpack Compose state management
+Navigation
+Room
+DataStore
+Hilt
+API error handling
+Performance optimisation
+
+They may ask why you chose a particular approach rather than asking you to write code.
+
+......................................................................................................
